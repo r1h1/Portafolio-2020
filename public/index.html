@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Hi, I'm Daniel Rivas, Dev, Designer and Web Dev HTML5, CSS3, Vanilla JS, geek of tech!, see more here!">
+    <meta name="keywords" content="html, css, javascript, photoshop">
+    <meta name="author" content="Daniel Estuardo Rivas Herrera">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="forms/logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- FONT AWESOME CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- GSTATIC SCRIPT FIREBASE -->
+    <!-- FIREBASE SCRIPTS -->
+    <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-firestore.js"></script>
+    <title>Hi! - Daniel Rivas</title>
+</head>
+
+<body oncontextmenu="return false" onkeydown="return false">
+
+    <!-- <body oncontextmenu="return false" onkeydown="return false"> -->
+
+    <!-- CABEZERA -->
+    <header>
+        <!-- CONTENEDOR PADRE -->
+        <div class="contenedor">
+            <!-- MENU -->
+            <nav data-aos="fade-right" data-aos-delay="400">
+                <strong><a href="#about" data-aos="fade-down" data-aos-duration="400">ABOUT</a></strong>
+                <strong><a href="#work" data-aos="fade-down" data-aos-duration="500">WORKS</a></strong>
+                <strong><a href="#contact" data-aos="fade-down" data-aos-duration="600">CONTACT</a></strong>
+            </nav>
+            <!-- CONTENEDOR DE TITULO  -->
+            <div class="contenedor-titulo" data-aos="fade-right" data-aos-delay="600">
+                <h1> <span>CREATIVE,</span> <br><span>DEV AND WEB</span><br><span>DESIGNER.</span></h1>
+            </div>
+            <!-- CONTENEDOR DE IMAGEN -->
+            <div class="contenedor-img-header" data-aos="fade-left" data-aos-delay="100">
+                <img loading="lazy" src="img/me-at-the-ciudad-cayala.jpeg" title="Me and Ciudad Cayalá, Guatemala" alt="me-at-cayala">
+            </div>
+    </header>
+    <!-- PRINCIPAL O MAIN -->
+
+    <main class="about-me">
+        <div class="contenedor">
+            <a href="#" id="about"></a>
+            <!-- TITULO SOBRE MI -->
+            <h2 data-aos="fade-right" data-aos-delay="700">ABOUT ME</h2>
+            <!-- IMAGEN -->
+            <div class="contenedor-img-aboutme" data-aos="fade-right" data-aos-delay="900">
+                <img loading="lazy" src="img//me-at-the-volcano.jpg" title="Me and Acatenango Volcano" alt="">
+            </div>
+            <!-- CONTENEDOR TEXTO -->
+            <div class="contenedor-texto-about" data-aos="fade-up" data-aos-delay="1300">
+                <p>Hello 👋, my name is Daniel Rivas, I am currently starting in the technological roll, I really like
+                    design with a lot of color, but also a lot of minimalism since not
+                    everyone likes it, I live in Guatemala City, I have developed some sites for companies and
+                    for personal projects, you can see them in the works section below, if you need to know me in more
+                    detail <strong style="text-decoration: underline;">I leave you two buttons for you to download my
+                        Curriculum Vitae</strong>, I hope to hear from you
+                    soon, contact me.</p>
+                <!-- BOTON DE DESCARGA -->
+                <a href="pdf/CVEnglish.pdf" download="CVDanielRivasEnglish" target="_blank" class="cvenglish"
+                    data-aos="fade-right" data-aos-delay="600">CV English<strong> ↓</strong></a>
+                <a href="pdf/CVDanielRivasEspanol.pdf" download="CVDanielRivasEspanol" class="cvspanish" target="_blank"
+                    data-aos="fade-right" data-aos-delay="600">CV Español<strong> ↓</strong></a>
+            </div>
+        </div>
+    </main>
+    <!-- SECCIÓN WORKS O TRABAJOS -->
+
+    <section class="works">
+        <a href="#" id="work"></a>
+        <div class="contenedor">
+            <h2 data-aos="fade-right" data-aos-delay="300">WORKS</h2>
+            <h2 class="flecha" data-aos="fade-down" data-aos-delay="1100">↓</h2>
+            <div class="imagen-trabajo1">
+                <p class="titulo-trabajo1" data-aos="fade-right" data-aos-delay="300">DISCOVER GUATEMALA</p>
+                <a href="http://g-uatemala.web.app/" target="_blank"><img src="img/jobs/guatemalaweb.jpg" alt=""
+                        data-aos="fade-right" data-aos-delay="600"></a>
+                <p data-aos="fade-right" data-aos-delay="700">HTML, CSS and JavaScript animation
+                    library, design with Adobe Photoshop CC 2020 and
+                    images downloaded from Unsplash, Click <strong>on the image</strong> to redirect to the web.</p>
+            </div>
+            <div class="imagen-trabajo1">
+                <p class="titulo-trabajo1" data-aos="fade-right" data-aos-delay="300">APP OF APPOINTMENTS
+                </p>
+                <a href="http://a-pplication.web.app/citas.html" target="_blank"><img src="img/jobs/webjonas.jpg" alt=""
+                        data-aos="fade-right" data-aos-delay="600"></a>
+                <p data-aos="fade-right" data-aos-delay="700">Bootsrap, NodeJS and JavaScript, Firebase as a
+                    database in the backend,
+                    design with Adobe Photoshop CC 2020 and
+                    images from Jonna's Salon, Click <strong>on the image</strong> to redirect to the web.</p>
+            </div>
+            <div class="imagen-trabajo1">
+                <p class="titulo-trabajo1" data-aos="fade-right" data-aos-delay="300">TUBAC SA INTRANET
+                </p>
+                <a href="img/jobs/tubac_intranet.jpg" target="_blank"><img src="img/jobs/tubac_intranet.jpg" alt=""
+                        data-aos="fade-right" data-aos-delay="600"></a>
+                <p data-aos="fade-right" data-aos-delay="700">HTML5, CSS3, PHP, MySQL, JavaScript, Have a set of
+                    contacts, set of newsletters for Human Resources and various functional links in the business
+                    system., Click <strong>on the image</strong> to redirect to the web.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PIE DE PÁGINA -->
+
+    <footer>
+        <a href="#" id="contact"></a>
+        <div class="contenedor">
+            <!-- GET IN TOUCH -->
+            <div class="get-in-touch">
+                <h3 data-aos="fade-right" data-aos-delay="200">GET IN TOUCH</h3>
+            </div>
+            <!-- CORREO ELECTRONICO -->
+            <div class="correo-e">
+                <p class="correo" data-aos="fade-left" data-aos-delay="500">→ danielrivas1.gt@gmail.com</p>
+                <p class="texto" data-aos="fade-left" data-aos-delay="800">Hey you!✌️, Do you have a project planned? I
+                    know! That is why in this section I leave you my contact information. I am eager to work together! I
+                    know that I have the solution for your web project 💻.</p>
+            </div>
+            <div class="redes-sociales">
+                <!-- REDES SOCIALES -->
+                <a href="https://m.me/DanielRivasHerrera26" target="_blank" data-aos="fade-right"
+                    data-aos-delay="200">facebook</a>
+                <a href="https://www.instagram.com/_rivas1/" target="_blank" data-aos="fade-up"
+                    data-aos-delay="500">instragram</a>
+                <a href="https://www.linkedin.com/in/daniel-rivas-a7063a180/" target="_blank" data-aos="fade-left"
+                    data-aos-delay="800">linkedin</a>
+            </div>
+        </div>
+        <!-- CON ♥, DANIEL RIVAS-->
+        <p class="with-l">With <span>❤️</span>, Daniel Rivas, Guatemala</p>
+    </footer>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
